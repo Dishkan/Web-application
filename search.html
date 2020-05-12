@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "//-W3C//DTD XHTML 1.1//EN" "http://www.w3.org./TR/xhtml1.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Главная страница сайта</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Описание" />
+	<meta name="keywords" content="Ключевые слова" />
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+<body>
+     <div id="content">
+	   <div id="header">
+	       <h2>Шапка сайта</h2>
+	   </div>  
+	 </div>
+	 <hr />
+	 <div id="main_content">
+	      <div id="left">
+		     <h2>Меню</h2>
+			 <ul>
+			     <li>
+				    <a href="#">Главная</a>
+				 </li>
+			     <li>
+				    <a href="#">Строковые функции</a>
+				 </li>
+			     <li>
+				    <a href="#">Математические функции</a>
+				 </li>	
+			     <li>
+				    <a href="#">Функция даты и времени</a>
+				 </li>					 
+			 </ul>
+			 <h2>Вход на сайт</h2>
+			 <form name="auth" action="#" method="post">
+			     <table>
+				    <tr>
+					    <td>Логин:</td>
+						<td>
+						   <input type="text" name="login" />						   
+						</td>
+					</tr>
+				    <tr>
+					    <td>Пароль:</td>
+						<td>
+						   <input type="password" name="password" />						   
+						</td>
+					</tr>
+                    <tr>
+                        <td colspan="2" align="right">
+						   <input type="submit" name="auth" value="Войти" />
+						</td>
+                    </tr>
+                    <tr>
+					   <td colspan="2" align="right">
+					       <a href="reg.html">Зарегистрироваться</a>
+					   </td>
+                    </tr>					
+				 </table>
+			 </form>
+		  </div>
+		  <div id="right">
+		      <form name="search" action="#" method="get">
+			     <p>
+				     Поиск: <input type="text" name="words" />
+				 </p>
+				 <p>
+				    <input type="submit" name="search" value="Искать" />
+				 </p>
+			  </form>
+			  <h2>Реклама</h2>
+			  <div class="banner">Тут код баннера</div>
+			  <div class="banner">Тут код баннера</div>
+		  </div>
+		  <div id="center">
+		       	   
+		  </div>
+		  <div class="clear"></div>
+		  <hr />
+		  <div id="footer">
+		      <p>Все права защищены &copy; 2017</p>
+		  </div>
+	 </div>
+</body>
+</html>
